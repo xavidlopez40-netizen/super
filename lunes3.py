@@ -66,7 +66,7 @@ st.subheader(f"💳 Saldo disponible: ${saldo_disponible:.2f}")
 # Expansor discreto para mostrar u ocultar el QR en la app web
 with st.expander("📱 Compartir App (Código QR)"):
     # REEMPLAZA ESTO con la URL final cuando subas tu App a internet (ej. share.streamlit.io)
-    url_publica ="https://b6k4rgkhnxsxxcxwfahhvu.streamlit.app/"
+    url_publica ="https://ayu5exzgmev5f6hxpsqdwn.streamlit.app/"
     
     qr = qrcode.QRCode(version=1, box_size=10, border=4)
     qr.add_data(url_publica)

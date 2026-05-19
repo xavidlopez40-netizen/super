@@ -43,7 +43,7 @@ if cursor.fetchone()[0] == 0:
 
 cursor.execute("SELECT COUNT(*) FROM clientes")
 if cursor.fetchone()[0] == 0:
-    cursor.execute("INSERT INTO clientes (numero, saldo) VALUES (?, ?)", ("XXXX-9999", 750.0))
+    cursor.execute("INSERT INTO clientes (numero, saldo) VALUES (?, ?)", ("XXXX-9999", 3000.0))
     conn.commit()
 
 # ================= VARIABLES DE SESIÓN (ESTADO DE LA APLICACIÓN) =================
